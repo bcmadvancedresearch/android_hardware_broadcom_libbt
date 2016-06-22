@@ -36,6 +36,15 @@ endif
 ifeq ($(TARGET_PRODUCT), sabresd_6dq)
 	include $(LOCAL_PATH)/conf/fsl/sabresd_6dq/Android.mk
 endif
+ifeq ($(TARGET_PRODUCT), ar6mx)
+	include $(LOCAL_PATH)/conf/fsl/ar6mx/Android.mk
+endif
+ifeq ($(TARGET_PRODUCT), gr60mxd)
+	include $(LOCAL_PATH)/conf/fsl/gr60mxd/Android.mk
+endif
+ifeq ($(TARGET_PRODUCT), gr60mx)
+        include $(LOCAL_PATH)/conf/fsl/gr60mx/Android.mk
+endif
 ifeq ($(TARGET_PRODUCT), sabresd_7d)
     include $(LOCAL_PATH)/conf/fsl/sabresd_7d/Android.mk
 endif
